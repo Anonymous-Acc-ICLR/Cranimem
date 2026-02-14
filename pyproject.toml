@@ -1,0 +1,36 @@
+[project]
+name = "cranimem"
+version = "0.1.0"
+description = "Robust memory system for LLM agents"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+keywords = ["llm", "memory", "agents", "rag", "neo4j"]
+
+dependencies = [
+  "pydantic<2.12",
+  "pydantic-settings",
+  "python-dotenv",
+  "langchain",
+  "langchain-core",
+  "langchain-community",
+  "langchain-huggingface",
+  "langchain-groq",
+  "langchain-google-genai",
+  "langgraph",
+  "transformers",
+  "accelerate",
+  "bitsandbytes",
+  "sentence-transformers",
+  "faiss-cpu",
+  "neo4j",
+  "numpy",
+  "torch",
+  "huggingface-hub",
+]
+
+[tool.setuptools]
+packages = { find = { include = ["cranimem*"] } }
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
