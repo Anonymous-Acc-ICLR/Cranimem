@@ -3,7 +3,7 @@
 This repository contains the implementation of CraniMem, a neurocognitively inspired memory framework for long-horizon LLM agents. CraniMem enables stable, goal-aware memory across extended interactions by combining selective encoding, bounded episodic storage, structured long-term knowledge graphs, and replay-based consolidation.
 
 
-<img width="11310" height="5110" alt="Cranimem" src="https://github.com/user-attachments/assets/f9cd4d20-34ab-48b4-bda3-70686355363a" />
+<img width="11310" height="5110" alt="Cranimem" src="https://github.com/user-attachments/assets/84cc99fa-fd9c-4790-ac2a-2b05f3f87e9e" />
 
 
 ## Overview
